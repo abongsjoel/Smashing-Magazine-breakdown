@@ -1,3 +1,31 @@
+.one {
+  background-color: #a9a9a9;
+}
+.two {
+  background-color: #c0c0c0;
+}
+.three {
+  background-color: #d3d3d3;
+}
+.four {
+  background-color: #dcdcdc;
+}
+.five {
+  background-color:#a9a9a9;
+}
+.six {
+  background-color: #c0c0c0;
+}
+.seven {
+  background-color: #d3d3d3;
+}
+.eight {
+  background-color: #dcdcdc;
+}
+.nine {
+  background-color: #a9a9a9;
+}
+
 header {
   width: 100vw;
   height: 100px;
@@ -13,33 +41,7 @@ main{
   grid-template-rows: repeat(2,550px);
 }
 
-.one {
-  background-color: #a9a9a9;
-}
-.two {
-  background-color: #c0c0c0;
-}
-.three {
-  background-color: #d3d3d3;
-}
-.four {
-  background-color: #dcdcdc;
-}
-.five {
-  background-color:#778899;
-}
-.six {
-  background-color: #c0c0c0;
-}
-.seven {
-  background-color: #d3d3d3;
-}
-.eight {
-  background-color: #dcdcdc;
-}
-.nine {
-  background-color: #a9a9a9;
-}
+
 .latest-articles {
   position: relative;
 }
@@ -55,6 +57,10 @@ main{
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-template-rows: 500px 700px 500px;
+}
+
+.latest-posts .five {
+  background-color: #778899;
 }
 
 .tittle .content {
@@ -74,7 +80,7 @@ main{
 
 .new {
   width: 90%;
-  background-color: indigo;
+  background-color: #808080;
   height: 690px;
   align-self: center;
   border-radius: 10px;
@@ -83,14 +89,14 @@ main{
 .see-latest{
   align-self: center;
   width: 20%;
-  background-color: rgb(0, 130, 91);
+  background-color: #778899;
   height: 60px;
 }
 
 .meet{
   width: 100%;
   height: 1060px;
-  background-color: indigo;
+  background-color: #696969;
   margin-top: 5%;
 }
 .community-links .one{
