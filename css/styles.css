@@ -43,15 +43,36 @@ main{
 .nine {
   background-color: #a9a9a9;
 }
+.latest-articles {
+  position: relative;
+}
 .tittle{
   position: absolute;
-  top: 10px;
+  top: 5%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .latest-posts{
   display: grid;
   grid-template-columns: repeat(3,1fr);
   grid-template-rows: 500px 700px 500px;
+}
+
+.tittle .content {
+  width: 300px;
+  height: 100px;
+  background-color: #2f4f4f;
+}
+
+.latest-articles .icon {
+  width: 300px;
+  height: 50px;
+  background-color: #708090;
+  position: absolute;
+  top: 5%;
+  right: 5%;
 }
 /* .latest-posts * {
   border: green 1px solid;
