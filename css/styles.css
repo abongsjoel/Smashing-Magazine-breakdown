@@ -103,8 +103,21 @@ main{
   height: 276px;
 }
 .community-grid{
-  background-color: khaki;
   display: grid;
   grid-template-columns: repeat(2,1fr);
   grid-template-rows: 420px 386px 420px;
+}
+.featured{
+  height: 400px;
+  background-color: khaki;
+  position: relative;
+  margin-top: 5%;
+}
+.featured div{
+  height: 400px;
+  width: 300px;
+  background-color: lawngreen;
+  position: absolute;
+  top:-45px;
+  right: 100px;
 }
