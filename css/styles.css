@@ -84,20 +84,23 @@ main{
   height: 690px;
   align-self: center;
   border-radius: 10px;
-  margin: 5%;
+  margin: 0 5%;
+  margin-top: 5%;
 }
 .see-latest{
   align-self: center;
   width: 20%;
   background-color: #778899;
   height: 60px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .meet{
   width: 100%;
   height: 1060px;
   background-color: #696969;
-  margin-top: 5%;
+  /* margin-top: 0 5%; */
 }
 .community-links .one{
   height: 276px;
@@ -109,9 +112,9 @@ main{
 }
 .featured{
   height: 400px;
-  background-color: khaki;
+  background-color: #696969;
   position: relative;
-  margin-top: 5%;
+  /* margin-top: 5%; */
 }
 .featured div{
   height: 400px;
@@ -126,7 +129,8 @@ main{
   gap: 1.5em;
   grid-template-columns: repeat(2,1fr);
   grid-template-rows: 400px 800px;
-  margin:7%;
+  margin: 0 7%;
+  margin-top: 5%;
 }
 
 .our-guide * {
