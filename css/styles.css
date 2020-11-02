@@ -7,10 +7,6 @@ main{
   display: flex;
   flex-direction: column;
 }
-.latest-articles {
-
-}
-
 .articles-grid {
   display: grid;
   grid-template-columns: repeat(2,1fr);
@@ -19,6 +15,33 @@ main{
 .articles-grid * {
   border: green 1px solid;
   background-color: hotpink;
+}
+.one {
+  background-color: #a9a9a9;
+}
+.two {
+  background-color: #c0c0c0;
+}
+.three {
+  background-color: #d3d3d3;
+}
+.four {
+  background-color: #dcdcdc;
+}
+.five {
+  background-color:#778899;
+}
+.six {
+  background-color: #c0c0c0;
+}
+.seven {
+  background-color: #d3d3d3;
+}
+.eight {
+  background-color: #dcdcdc;
+}
+.nine {
+  background-color: #a9a9a9;
 }
 .tittle{
   position: absolute;
@@ -30,7 +53,7 @@ main{
   grid-template-columns: repeat(3,1fr);
   grid-template-rows: 500px 700px 500px;
 }
-.latest-posts * {
+/* .latest-posts * {
   border: green 1px solid;
   background-color: indigo;
-}
+} */
