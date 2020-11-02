@@ -1,3 +1,5 @@
-p {
-  color: green;
+header {
+  width: 100vw;
+  height: 100px;
+  background-color: #808080;
 }
