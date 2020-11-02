@@ -12,10 +12,7 @@ main{
   grid-template-columns: repeat(2,1fr);
   grid-template-rows: repeat(2,550px);
 }
-.articles-grid * {
-  border: green 1px solid;
-  background-color: hotpink;
-}
+
 .one {
   background-color: #a9a9a9;
 }
@@ -74,7 +71,30 @@ main{
   top: 5%;
   right: 5%;
 }
-/* .latest-posts * {
-  border: green 1px solid;
+
+.new {
+  width: 90%;
   background-color: indigo;
-} */
+  height: 690px;
+  align-self: center;
+  border-radius: 10px;
+  margin: 5%;
+}
+.see-latest{
+  align-self: center;
+  width: 20%;
+  background-color: rgb(0, 130, 91);
+  height: 60px;
+}
+.meet{
+  width: 100%;
+  height: 1060px;
+  background-color: indigo;
+  margin-top: 5%;
+}
+
+.community-grid{
+  background-color: khaki;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
