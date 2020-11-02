@@ -136,3 +136,9 @@ main{
 .our-guide .four {
   background-color: #778899;
 }
+
+footer {
+  width: 100vw;
+  height: 600px;
+  background-color: #696969;
+}
