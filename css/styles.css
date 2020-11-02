@@ -121,3 +121,15 @@ main{
   top:-45px;
   right: 100px;
 }
+.our-guide{
+  display: grid;
+  gap: 1.5em;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: 400px 800px;
+  margin:7%;
+}
+
+.our-guide * {
+  border: lightcoral 1px solid;
+  border-radius: 5px;
+}
