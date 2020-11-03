@@ -208,6 +208,15 @@ button {
 .our-guide .four {
   background-color: #696969;
 }
+.imput{
+display: flex;
+
+}
+.email{
+ background-color: #808080;
+  width: 100%;
+  height: auto;
+}
 
 footer {
   width: 100vw;
