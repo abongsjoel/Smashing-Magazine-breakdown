@@ -26,6 +26,23 @@
   background-color: #d3d3d3;
 }
 
+/*font-family: 'Droid Serif', Georgia, Times, serif;
+ font-size: 49px;
+ line-height: 65px;
+*/
+body{
+ font-family: 'Droid Serif', Georgia, Times, serif;
+ font-size: 35px;
+ line-height: 1.2;
+ font-weight: bold;
+}
+
+p {
+  font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+ }
+
 header {
   width: 100vw;
   height: 100px;
@@ -41,10 +58,21 @@ main{
   grid-template-rows: repeat(2,550px);
 }
 
+article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+h1{
+  font-size: 46px;
+  text-align: center;
+}
 
 .latest-articles {
   position: relative;
 }
+
 .tittle{
   position: absolute;
   top: 5%;
@@ -64,9 +92,9 @@ main{
 }
 
 .tittle .content {
-  width: 300px;
-  height: 100px;
+  width: 425px;
   background-color: #808080;
+  text-align: center; 
 }
 
 .latest-articles .icon {
