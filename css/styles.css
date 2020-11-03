@@ -71,9 +71,35 @@ p {
 }
 
 header {
+  padding: 20px;
   width: 100vw;
   height: 100px;
   background-color: #c0c0c0;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.logo{
+ width: 200px;
+ height: 50px;
+ background-color: grey;
+}
+
+nav ul{
+  width: 500px;
+  display: flex;
+  justify-content: space-evenly;
+}
+nav ul li{
+  background-color: grey;
+  height: 30px;
+}
+
+.search{
+  width: 300px;
+  height: 50px;
+  background-color: grey;
 }
 
 main {
@@ -254,8 +280,9 @@ footer ul {
   margin-top: 50px;
 }
 
-footer a {
+ a {
   color: white;
   text-decoration: none;
   font-size: 20px;
+  font-weight: bold;
 }
