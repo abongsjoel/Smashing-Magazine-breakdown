@@ -1,6 +1,6 @@
 /*** Typography ***/
 
-h1, h2, h3 {
+h1, h2, h3, h4, button {
   font-family: 'Arvo', Georgia, Times, serif;
   font-weight: bold;
  }
@@ -18,8 +18,12 @@ h1, h2, h3 {
  h3 {
    font-size: 30px;
  }
+
+ h4 {
+   font-size: 18px;
+ }
   
- p {
+ body, p {
   font-family: 'PT Sans', Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -118,6 +122,14 @@ article {
   right: 5%;
 }
 
+.new, .meet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
 .new {
   width: 90%;
   background-color: #808080;
@@ -127,20 +139,32 @@ article {
   margin: 0 5%;
   margin-top: 5%;
 }
+
+.new div {
+  max-width: 600px;
+}
+
+.meet div {
+  max-width: 800px;
+}
+
+button {
+  padding: 10px 25px;
+  font-size: 15px;
+}
 .see-latest{
   align-self: center;
   width: 20%;
-  background-color:#c0c0c0;
   height: 60px;
   margin-top: 50px;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .meet{
   width: 100%;
   height: 1060px;
   background-color: #696969;
-  /* margin-top: 0 5%; */
 }
 .community-links .one{
   height: 276px;
