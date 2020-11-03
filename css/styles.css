@@ -1,35 +1,35 @@
 .one {
-  background-color: #a9a9a9;
+  background-color: #d3d3d3;
 }
 .two {
-  background-color: #c0c0c0;
+  background-color: #e5e4e2;
 }
 .three {
-  background-color: #d3d3d3;
+  background-color: #dcdcdc;
 }
 .four {
-  background-color: #dcdcdc;
+  background-color: #dbd7d2;
 }
 .five {
-  background-color:#a9a9a9;
+  background-color:#d3d3d3;
 }
 .six {
-  background-color: #c0c0c0;
+  background-color: #e5e4e2;
 }
 .seven {
-  background-color: #d3d3d3;
-}
-.eight {
   background-color: #dcdcdc;
 }
+.eight {
+  background-color: #dbd7d2;
+}
 .nine {
-  background-color: #a9a9a9;
+  background-color: #d3d3d3;
 }
 
 header {
   width: 100vw;
   height: 100px;
-  background-color: #808080;
+  background-color:#c0c0c0;
 }
 main{
   display: flex;
@@ -60,19 +60,19 @@ main{
 }
 
 .latest-posts .five {
-  background-color: #778899;
+  background-color: #696969;
 }
 
 .tittle .content {
   width: 300px;
   height: 100px;
-  background-color: #2f4f4f;
+  background-color: #808080;
 }
 
 .latest-articles .icon {
   width: 300px;
   height: 50px;
-  background-color: #708090;
+  background-color: #a9a9a9;
   position: absolute;
   top: 5%;
   right: 5%;
@@ -90,7 +90,7 @@ main{
 .see-latest{
   align-self: center;
   width: 20%;
-  background-color: #778899;
+  background-color:#c0c0c0;
   height: 60px;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -119,7 +119,7 @@ main{
 .featured div {
   height: 400px;
   width: 300px;
-  background-color: #2f4f4f;
+  background-color: #c0c0c0;
   position: absolute;
   top:-45px;
   right: 100px;
@@ -134,7 +134,7 @@ main{
 }
 
 .our-guide .four {
-  background-color: #778899;
+  background-color: #696969;
 }
 
 footer {
