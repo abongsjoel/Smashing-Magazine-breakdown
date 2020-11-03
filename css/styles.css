@@ -168,7 +168,13 @@ button {
 }
 .community-links .one{
   height: 276px;
+  padding-left: 25%;
 }
+
+.community-links .one .p1{
+  font-size: 23px;
+}
+
 .community-grid{
   display: grid;
   grid-template-columns: repeat(2,1fr);
@@ -179,7 +185,10 @@ button {
   background-color: #696969;
   position: relative;
 }
-.featured div {
+.featured-smashing{
+  padding: 5% 40% 5% 5%;
+}
+.featured .book {
   height: 400px;
   width: 300px;
   background-color: #c0c0c0;
