@@ -5,7 +5,7 @@
 
 ![screenshot](../features/screenshot.png)
 
-In this project, we copied the basic structure of the Smashing Magazine homepage using empty semantic HTML elements that are appropriately sized and positioned. We used flexbox, css grid, and positioning to position the various elements. We made the background colors of the elements using different shades of gray which correspond to their visual weight on the Smashing homepage. We added two matching font types for the header text and body text respectively and added some placeholder text into the various elements.
+In this project, we copied the basic structure of the Smashing Magazine homepage using empty semantic HTML5 elements that are appropriately sized and positioned. We used flexbox, css grid, and positioning to position the various elements. We made the background colors of the elements using different shades of gray which correspond to their visual weight on the Smashing homepage. We added two matching font types for the header text and body text respectively and added some placeholder text into the various elements.
 
 ## Live Demo 
 
