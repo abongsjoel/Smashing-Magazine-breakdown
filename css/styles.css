@@ -78,10 +78,7 @@ article {
   align-items: center;
   padding: 0 20px;
 }
-h1{
-  font-size: 46px;
-  text-align: center;
-}
+
 
 .latest-articles {
   position: relative;
@@ -103,6 +100,7 @@ h1{
 
 .latest-posts .five {
   background-color: #696969;
+  color: white;
 }
 
 .tittle .content {
